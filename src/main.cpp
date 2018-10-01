@@ -13,6 +13,9 @@ int main() {
 int addNumber(int a, int b) {
     return a + b;
 }
+int minusNumber(int a, int b) {
+    return a - b;
+}
 
 int getTriangleType(int a, int b, int c) {
     if (a > b && a > c) {
